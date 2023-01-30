@@ -1,7 +1,7 @@
 import axios from "axios";
 // import AddUser from '../components/AddUser'
 
-const URL = "http://localhost:8000";
+const URL = "https://basic-crud-mern-server.onrender.com";
 export const addUser = async (data) => {
   try {
     return await axios.post(`${URL}/add`, data);
